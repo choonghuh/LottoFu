@@ -10,6 +10,12 @@
 
 @interface ViewController ()
 
+//
+@property (weak, nonatomic) IBOutlet NSLayoutConstraint *maxValueSegmentedControl;
+
+//returns IBAction aka void
+- (IBAction)buttonTouched:(UIButton *)sender;
+
 @end
 
 @implementation ViewController
@@ -17,6 +23,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    //self.maxValueSegmentedControl.s
 }
 
 - (void)didReceiveMemoryWarning {
@@ -24,4 +31,8 @@
     // Dispose of any resources that can be recreated.
 }
 
+// Implementation: What to do when button touched
+- (IBAction)buttonTouched:(UIButton *)sender {
+    NSLog(@"buttonTouched: tag=%ld", sender.tag); //NSint is ld
+}
 @end
