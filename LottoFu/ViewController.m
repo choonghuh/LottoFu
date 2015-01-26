@@ -9,9 +9,9 @@
 #import "ViewController.h"
 
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet UISegmentedControl *maxValueSegmentedControl;
 
 //
-@property (weak, nonatomic) IBOutlet NSLayoutConstraint *maxValueSegmentedControl;
 
 //returns IBAction aka void
 - (IBAction)buttonTouched:(UIButton *)sender;
@@ -23,7 +23,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    //self.maxValueSegmentedControl.s
+    self.maxValueSegmentedControl.selectedSegmentIndex = 1;
 }
 
 - (void)didReceiveMemoryWarning {
