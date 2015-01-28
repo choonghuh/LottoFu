@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2FF5CC951A798C4C00317313 /* LuckyNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FF5CC941A798C4C00317313 /* LuckyNumber.m */; };
 		55E6E04B1A7401210022BCD2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E6E04A1A7401210022BCD2 /* main.m */; };
 		55E6E04E1A7401210022BCD2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E6E04D1A7401210022BCD2 /* AppDelegate.m */; };
 		55E6E0511A7401210022BCD2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E6E0501A7401210022BCD2 /* ViewController.m */; };
@@ -27,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2FF5CC931A798C4C00317313 /* LuckyNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LuckyNumber.h; sourceTree = "<group>"; };
+		2FF5CC941A798C4C00317313 /* LuckyNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LuckyNumber.m; sourceTree = "<group>"; };
 		55E6E0451A7401210022BCD2 /* LottoFu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LottoFu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55E6E0491A7401210022BCD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		55E6E04A1A7401210022BCD2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -86,6 +89,8 @@
 				55E6E04F1A7401210022BCD2 /* ViewController.h */,
 				55E6E0501A7401210022BCD2 /* ViewController.m */,
 				55E6E0521A7401210022BCD2 /* Main.storyboard */,
+				2FF5CC931A798C4C00317313 /* LuckyNumber.h */,
+				2FF5CC941A798C4C00317313 /* LuckyNumber.m */,
 				55E6E0551A7401210022BCD2 /* Images.xcassets */,
 				55E6E0571A7401210022BCD2 /* LaunchScreen.xib */,
 				55E6E0481A7401210022BCD2 /* Supporting Files */,
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				55E6E0511A7401210022BCD2 /* ViewController.m in Sources */,
+				2FF5CC951A798C4C00317313 /* LuckyNumber.m in Sources */,
 				55E6E04E1A7401210022BCD2 /* AppDelegate.m in Sources */,
 				55E6E04B1A7401210022BCD2 /* main.m in Sources */,
 			);
@@ -414,6 +420,7 @@
 				55E6E06A1A7401210022BCD2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		55E6E06B1A7401210022BCD2 /* Build configuration list for PBXNativeTarget "LottoFuTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +429,7 @@
 				55E6E06D1A7401210022BCD2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

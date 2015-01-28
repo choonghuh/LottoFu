@@ -50,6 +50,9 @@
                                                     <segment title="56"/>
                                                 </segments>
                                                 <color key="tintColor" red="0.0" green="0.22494346217105263" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                <connections>
+                                                    <action selector="maxValueSelected:" destination="BYZ-38-t0r" eventType="valueChanged" id="3Sb-84-LaG"/>
+                                                </connections>
                                             </segmentedControl>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Max Value" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6hb-zR-uxx">
                                                 <rect key="frame" x="97" y="23" width="80" height="21"/>
@@ -64,6 +67,9 @@
                                                 <state key="normal" title="Pick!">
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="pickAll:" destination="BYZ-38-t0r" eventType="touchUpInside" id="C5c-OG-Y3o"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" red="0.5" green="1" blue="0.5" alpha="1" colorSpace="calibratedRGB"/>
