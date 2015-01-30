@@ -30,6 +30,17 @@
     return [[self.numbers objectAtIndex:i] intValue];
 }
 
+-(void)setMaxNumber:(NSInteger)maxNumber
+{
+    //self.maxNumber = maxNumber  DONT. INFINITE LOOP
+    
+    if (_maxNumber != maxNumber)
+    {
+        _maxNumber = maxNumber;
+        [self pickAllNumbers];
+    }
+}
+
 -(void)pickNumber:(NSInteger)i  // i=0...5
 {
     BOOL unique;
@@ -40,7 +51,7 @@
         unique = YES;
         n = arc4random() % self.maxNumber+1;
         
-        for(int j=0; j<6; i++)
+        for(int j=0; j<6; j++)
             if(n==[[self.numbers objectAtIndex:j] intValue])
                {
                    unique=NO;

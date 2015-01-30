@@ -15,6 +15,9 @@
 
 //property generates max getter / setter methods
 @property (assign, nonatomic) NSInteger maxNumber; //48 or 56
+// Wanna know when max number changes, so
+// gonna program the setter myself
+
 
 - (instancetype)initWithMax:(NSInteger)max;
 -(NSInteger)number:(NSInteger)i; // i=0...5

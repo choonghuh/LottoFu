@@ -216,6 +216,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="buttonView" destination="O4x-gJ-nH0" id="CGw-28-Bfq"/>
                         <outlet property="maxValueSegmentedControl" destination="49J-OL-F4O" id="dN3-hm-uqO"/>
                     </connections>
                 </viewController>
